@@ -1,7 +1,3 @@
-Here's a sample `README.md` file for your email spam classification project:
-
----
-
 # Email Spam Classification
 
 This project classifies emails as spam or not spam using a machine learning model based on the Naive Bayes algorithm. The email texts are vectorized using the TF-IDF (Term Frequency-Inverse Document Frequency) technique to convert the text data into numerical form before applying the classification model.
@@ -47,7 +43,7 @@ The dataset used contains two columns:
 ## Files
 
 - `email_text.csv`: The dataset used for training and testing.
-- `spam_classification.py`: The Python script containing the complete code for data preprocessing, model training, evaluation, and prediction.
+- `email spam classifier.ipynb`: The Python script containing the complete code for data preprocessing, model training, evaluation, and prediction.
 - `README.md`: This file, providing an overview of the project.
 
 ## Installation
@@ -57,8 +53,8 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/email-spam-classification.git
-   cd email-spam-classification
+   git clone https://github.com/Abhisek8895/Email_Spam_Classifier.git
+   cd Email_Spam_Classifier
    ```
 
 2. Install the required Python libraries:
@@ -83,7 +79,7 @@ To run this project locally, follow these steps:
 
 The confusion matrix is visualized as a heatmap using Seaborn:
 
-![Confusion Matrix](confusion_matrix_heatmap.png)
+![Confusion Matrix](image.png)
 
 ## Model Performance
 
@@ -93,7 +89,3 @@ The confusion matrix is visualized as a heatmap using Seaborn:
 ## Conclusion
 
 The Naive Bayes model performs well on this dataset, achieving a high accuracy in classifying emails as spam or not spam. The use of TF-IDF vectorization effectively converts the email text into numerical features suitable for the Naive Bayes algorithm.
-
----
-
-Feel free to modify the repository link and any specific details based on your preferences!
